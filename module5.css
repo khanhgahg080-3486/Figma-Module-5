@@ -4,12 +4,12 @@ body{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings:"wdth" 100px;
 }
 
 
 .section-title{
-font-weight: 700;
+font-weight: 700px;
 font-size: 35px;
 text-align: center;
 color: #181818;
@@ -18,7 +18,7 @@ color: #181818;
 
 .section-description{
 
-font-weight: 400;
+font-weight: 400px;
 font-size: 18px;
 line-height: 167%;
 text-align: center;
@@ -37,7 +37,7 @@ nav{
 
 .nav-title{
 
-font-weight: 800;
+font-weight: 800px;
 font-size: 45px;
 color: var(--dark-01);
 }
@@ -51,7 +51,7 @@ color: var(--dark-01);
     background: #fd6e0a;
     border-radius: 5px;
     border: 0;
-     font-weight: 700;
+     font-weight: 700px;
      font-size: 20px;
      color:white;
      padding:15PX 35PX;
@@ -70,7 +70,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-font-weight: 400;
+font-weight: 400px;
 font-size: 20px;
 color: var(--dark-02);
 }
@@ -132,5 +132,11 @@ main{
 }
 .about-info{
     text-align: center;
-    
+
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
 }
