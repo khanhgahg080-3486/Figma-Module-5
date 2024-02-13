@@ -12,6 +12,8 @@ body{
 
 nav{
    display: flex;
+   justify-content: space-between; 
+   align-items: center;
 }
 
 .nav-title{
@@ -26,9 +28,17 @@ color: var(--dark-01);
 .button-primary{
     background: #fd6e0a;
     border-radius: 5px;
+    border: 0;
+     font-weight: 700;
+     font-size: 20px;
+     color:white;
+     padding:15PX 35PX;
+     
 }
 nav> ul{
-    display:flex
+    display:flex;
+    align-items: ;
+   
 }
 nav li {
     list-style: none;
