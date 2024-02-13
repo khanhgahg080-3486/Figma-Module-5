@@ -112,7 +112,10 @@ margin-bottom: 20px;
 }
 
 /* Main Section Style */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About Section Style */
 
 .about{
@@ -122,4 +125,12 @@ margin-bottom: 20px;
     height: 550px;
     background: #fff8f3;
     margin:130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    
 }
