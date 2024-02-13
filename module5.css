@@ -116,7 +116,15 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
+main section{
+    margin-top: 130px;
+}
 /* About Section Style */
+
+
+
 
 .about{
     padding: 130px;
@@ -128,15 +136,33 @@ main{
 }
 .about-info-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
+
+    
 }
 .about-info{
     text-align: center;
+    }
 
-}
+    /* What i do style */
+
+
 #what-i-do-description{
     padding: 30px 150px;
 }
 .skills-container{
     display: flex;
+    gap: 24px;
+}
+
+.skill{
+padding:30px;
+ border-radius: 5px;
+width: 267px;
+height: 300px;
+box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+background: #FFF;
+}
+.skill-description{
+    color: #757575;
 }
