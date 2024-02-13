@@ -14,6 +14,7 @@ nav{
    display: flex;
    justify-content: space-between; 
    align-items: center;
+   margin: 0 200px;
 }
 
 .nav-title{
@@ -51,4 +52,18 @@ nav a {
 font-weight: 400;
 font-size: 20px;
 color: var(--dark-02);
+}
+
+/* Header related styles */
+.header{
+    background: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .photo{
+    width: 500px;
+    height: 600px;
 }
