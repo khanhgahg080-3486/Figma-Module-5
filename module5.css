@@ -1,0 +1,44 @@
+/* Common Shared Styles */
+body{
+   font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* Nav Related Styles */
+
+
+nav{
+   display: flex;
+}
+
+.nav-title{
+
+font-weight: 800;
+font-size: 45px;
+color: var(--dark-01);
+}
+.text-primary{
+    color: #fd6e0a;
+}
+.button-primary{
+    background: #fd6e0a;
+    border-radius: 5px;
+}
+nav> ul{
+    display:flex
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+font-weight: 400;
+font-size: 20px;
+color: var(--dark-02);
+}
