@@ -7,6 +7,24 @@ body{
   font-variation-settings:"wdth" 100;
 }
 
+
+.section-title{
+font-weight: 700;
+font-size: 35px;
+text-align: center;
+color: #181818;
+}
+
+
+.section-description{
+
+font-weight: 400;
+font-size: 18px;
+line-height: 167%;
+text-align: center;
+color: #757575;
+}
+
 /* Nav Related Styles */
 
 
@@ -23,6 +41,9 @@ font-weight: 800;
 font-size: 45px;
 color: var(--dark-01);
 }
+
+
+
 .text-primary{
     color: #fd6e0a;
 }
@@ -56,14 +77,49 @@ color: var(--dark-02);
 
 /* Header related styles */
 .header{
-    background: #fff8f3;
+    background-color:  #fff8f3;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .photo{
     width: 500px;
     height: 600px;
+}
+.banner-greeting{
+font-weight: 600;
+font-size: 45px;
+margin-bottom: 0px;
+}
+.banner-title{
+font-weight: 700;
+font-size: 85px;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.banner-dis{
+    margin-bottom: 40px;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+/* Main Section Style */
+
+/* About Section Style */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    width: 1140px;
+    height: 550px;
+    background: #fff8f3;
+    margin:130px 0px;
 }
