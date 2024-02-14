@@ -128,7 +128,7 @@ main section{
 
 
 .about{
-    padding: 130px;
+    padding-top: 130px;
     border-radius: 10px;
     width: 1140px;
     height: 550px;
@@ -141,8 +141,10 @@ main section{
 
     
 }
+
 .about-info{
     text-align: center;
+    justify-content: center;
     }
 
     /* What i do style */
