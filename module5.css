@@ -166,3 +166,9 @@ background: #FFF;
 .skill-description{
     color: #757575;
 }
+
+/* Resume Style */
+.resume-column-title{
+font-weight: 700;
+font-size: 30px;
+color: #474747;
